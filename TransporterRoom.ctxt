@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ TransporterRoom\ is\ a\ type\ of\ room\ that\ teleports\ the\ player\ to\ a\ random\ room\r\n
+comment1.params=pName\ pImage
+comment1.target=TransporterRoom(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ of\ the\ class\ TransporterRoom\r\n\ @param\ pName\ the\ name\ of\ the\ room\r\n\ @param\ pImage\ the\ image\ of\ the\ room\ \r\n
+comment2.params=pRoom
+comment2.target=void\ addRoom(Room)
+comment2.text=\r\n\ Add\ a\ room\ to\ the\ list\ of\ rooms\r\n\ \r\n\ @param\ pRoom\ the\ room\ to\ add\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getExits()
+comment3.text=\r\n\ Returns\ the\ list\ of\ rooms\r\n\ \r\n\ @return\ the\ list\ of\ rooms\r\n
+comment4.params=
+comment4.target=Room\ getRandomExit()
+comment4.text=\r\n\ Returns\ a\ random\ room\ from\ the\ list\ of\ rooms\r\n\ \r\n\ @return\ a\ random\ room\r\n
+numComments=5

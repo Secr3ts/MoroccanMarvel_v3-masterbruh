@@ -1,0 +1,36 @@
+1
+look
+go east
+1
+eat couscous
+go east
+1
+look
+go south
+go west
+take magicincense
+take magic-cookie
+eat magic-cookie
+go east
+go east
+charge magicincense
+go east
+take golden-coins
+fire magicincense
+go west
+1
+go north
+go north
+go west
+look
+go east
+go north
+go south
+go south
+look
+go east
+1
+drop
+go east
+go east
+go up

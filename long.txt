@@ -1,0 +1,16 @@
+2
+go east
+1
+go east
+2
+go south
+go east
+go east
+take golden-coins
+go west
+go west
+1
+go north
+go north
+go west
+go east

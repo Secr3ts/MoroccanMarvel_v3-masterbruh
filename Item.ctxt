@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=pItemName\ pItemDescription\ pItemWeight
+comment1.target=Item(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Item\ constructor\r\n\ \r\n\ @param\ pItemName\ Item\ name\r\n\ @param\ pItemDescription\ Item\ description\r\n\ @param\ pItemWeight\ Item\ weight\r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemName()
+comment2.text=\r\n\ Item\ name\ getter\r\n\ \r\n\ @return\ Item\ name\r\n
+comment3.params=
+comment3.target=java.lang.String\ getItemDescription()
+comment3.text=\r\n\ Item\ description\ getter\r\n\ \r\n\ @return\ Item\ description\r\n
+comment4.params=
+comment4.target=double\ getItemWeight()
+comment4.text=\r\n\ Item\ weight\ getter\r\n\ \r\n\ @return\ Item\ weight\r\n
+comment5.params=
+comment5.target=java.lang.String\ getShortDescription()
+comment5.text=\r\n\ return\ short\ description\ of\ the\ item\r\n\r\n\ @return\ character\ chain\ of\ the\ description\r\n
+comment6.params=
+comment6.target=java.lang.String\ getLongDescription()
+comment6.text=\r\n\ return\ long\ description\ of\ the\ item\r\n\ \r\n\ @return\ character\ chain\ of\ the\ long\ description\r\n
+comment7.params=pItemWeight
+comment7.target=void\ setItemWeight(double)
+numComments=8

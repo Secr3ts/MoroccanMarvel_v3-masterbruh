@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FlagList
+comment0.text=\r\n\ The\ FlagList\ that\ mutualize\ the\ flags\ of\ the\ game\r\n\ \r\n\ @author\ Sofyan\ Guillermet-Laouad\ (with\ the\ help\ of\ Alo\u00EFs\ Fournier)\r\n
+comment1.params=
+comment1.target=FlagList()
+comment1.text=\r\n\ Constructor\ of\ the\ class\ FlagList\r\n
+comment2.params=pFlag
+comment2.target=void\ addFlag(Flag)
+comment2.text=\r\n\ Add\ a\ flag\ to\ the\ list\ of\ flags\r\n\ \r\n\ @param\ pFlag\r\n
+comment3.params=pFlagName
+comment3.target=Flag\ getFlag(java.lang.String)
+comment3.text=\r\n\ Returns\ the\ flag\ with\ the\ given\ name\r\n\ \r\n\ @param\ pFlagName\r\n\ @return\ the\ flag\ with\ the\ given\ name\r\n
+comment4.params=pFlagName
+comment4.target=boolean\ hasFlag(java.lang.String)
+comment4.text=\r\n\ Return\ true\ if\ the\ flag\ exists,\ false\ otherwise\r\n\ \r\n\ @param\ pFlagName\r\n
+comment5.params=pFlagName
+comment5.target=void\ removeFlag(java.lang.String)
+comment5.text=\r\n\ Remove\ the\ flag\ with\ the\ given\ name\r\n\ \r\n\ @param\ pFlagName\r\n
+numComments=6

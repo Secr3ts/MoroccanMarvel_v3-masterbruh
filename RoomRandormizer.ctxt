@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RoomRandormizer
+comment0.text=\r\n\ This\ class\ is\ used\ to\ generate\ a\ random\ room\ for\ the\ player\ to\ enter.\r\n\ \r\n\ @author\ Sofyan\ Guillermet-Laouad\ and\ Alo\u00EFs\ Fournier\ 19.05.23\r\n
+comment1.params=
+comment1.target=RoomRandormizer()
+comment1.text=\r\n\ Constructor\ of\ the\ class\ RoomRandomizer\r\n
+comment2.params=pRoom
+comment2.target=void\ addRoom(Room)
+comment2.text=\r\n\ Add\ a\ room\ to\ the\ list\ of\ rooms\r\n\ \r\n\ @param\ pRoom\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getRooms()
+comment3.text=\r\n\ Get\ the\ wole\ collection\r\n\ @return\ the\ list\ of\ rooms\r\n
+comment4.params=
+comment4.target=Room\ getRandomRoom()
+comment4.text=\r\n\ Returns\ a\ random\ room\ from\ the\ list\ of\ rooms\r\n\ \r\n\ @return\ a\ random\ room\r\n
+numComments=5

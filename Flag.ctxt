@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Flag
+comment0.text=\r\n\ Flag\ class\ used\ to\ track\ the\ advancement\ of\ the\ Player\r\n
+comment1.params=pFlagName
+comment1.target=Flag(java.lang.String)
+comment1.text=\r\n\ Constructor\ of\ the\ class\ Flag\r\n\ @param\ pFlagName\r\n
+comment2.params=
+comment2.target=java.lang.String\ getFlagName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ the\ flag\r\n\ @return\ the\ name\ of\ the\ flag\r\n
+numComments=3

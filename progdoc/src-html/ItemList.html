@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Source code</title>
+<link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+</head>
+<body>
+<main role="main">
+<div class="sourceContainer">
+<pre><span class="sourceLineNo">001</span><a id="line.1">import java.util.HashMap;</a>
+<span class="sourceLineNo">002</span><a id="line.2">import java.util.Set;</a>
+<span class="sourceLineNo">003</span><a id="line.3"></a>
+<span class="sourceLineNo">004</span><a id="line.4">public class ItemList{</a>
+<span class="sourceLineNo">005</span><a id="line.5">    private HashMap&lt;String, Item&gt; aItemList;</a>
+<span class="sourceLineNo">006</span><a id="line.6">    private String aLocation;</a>
+<span class="sourceLineNo">007</span><a id="line.7"></a>
+<span class="sourceLineNo">008</span><a id="line.8">    public ItemList(String pLocation){</a>
+<span class="sourceLineNo">009</span><a id="line.9">        this.aItemList = new HashMap&lt;String, Item&gt;();</a>
+<span class="sourceLineNo">010</span><a id="line.10">        this.aLocation = pLocation;</a>
+<span class="sourceLineNo">011</span><a id="line.11">    }</a>
+<span class="sourceLineNo">012</span><a id="line.12"></a>
+<span class="sourceLineNo">013</span><a id="line.13">    public void addItem(final String pItemName, final Item pItem){</a>
+<span class="sourceLineNo">014</span><a id="line.14">        this.aItemList.put(pItemName, pItem);</a>
+<span class="sourceLineNo">015</span><a id="line.15">    }</a>
+<span class="sourceLineNo">016</span><a id="line.16"></a>
+<span class="sourceLineNo">017</span><a id="line.17">    public Item getItem(final String pItemName){</a>
+<span class="sourceLineNo">018</span><a id="line.18">        return this.aItemList.get(pItemName);</a>
+<span class="sourceLineNo">019</span><a id="line.19">    }</a>
+<span class="sourceLineNo">020</span><a id="line.20"></a>
+<span class="sourceLineNo">021</span><a id="line.21">    public void removeItem(final String pItemName){</a>
+<span class="sourceLineNo">022</span><a id="line.22">        this.aItemList.remove(pItemName);</a>
+<span class="sourceLineNo">023</span><a id="line.23">    }</a>
+<span class="sourceLineNo">024</span><a id="line.24"></a>
+<span class="sourceLineNo">025</span><a id="line.25">    public boolean hasItem(final String pItemName){</a>
+<span class="sourceLineNo">026</span><a id="line.26">        if(this.aItemList.containsKey(pItemName)){</a>
+<span class="sourceLineNo">027</span><a id="line.27">            return true;</a>
+<span class="sourceLineNo">028</span><a id="line.28">        } else{</a>
+<span class="sourceLineNo">029</span><a id="line.29">            return false;</a>
+<span class="sourceLineNo">030</span><a id="line.30">        }</a>
+<span class="sourceLineNo">031</span><a id="line.31">    }</a>
+<span class="sourceLineNo">032</span><a id="line.32"></a>
+<span class="sourceLineNo">033</span><a id="line.33">    public String getItemString() {</a>
+<span class="sourceLineNo">034</span><a id="line.34">        if(this.aItemList.isEmpty()){</a>
+<span class="sourceLineNo">035</span><a id="line.35">            return "There is nothing here in " + this.aLocation + ".";  </a>
+<span class="sourceLineNo">036</span><a id="line.36">        }</a>
+<span class="sourceLineNo">037</span><a id="line.37"></a>
+<span class="sourceLineNo">038</span><a id="line.38">        StringBuilder vItems = new StringBuilder("Items in " + this.aLocation + ":");</a>
+<span class="sourceLineNo">039</span><a id="line.39">        Set&lt;String&gt; vKeys = this.aItemList.keySet();</a>
+<span class="sourceLineNo">040</span><a id="line.40">        for(String vItem : vKeys) {</a>
+<span class="sourceLineNo">041</span><a id="line.41">            vItems.append(" " + vItem);</a>
+<span class="sourceLineNo">042</span><a id="line.42">        }</a>
+<span class="sourceLineNo">043</span><a id="line.43">        return vItems.toString();</a>
+<span class="sourceLineNo">044</span><a id="line.44">    }//getItemString()</a>
+<span class="sourceLineNo">045</span><a id="line.45"></a>
+<span class="sourceLineNo">046</span><a id="line.46">}</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+</div>
+</main>
+</body>
+</html>

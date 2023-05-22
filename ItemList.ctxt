@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ItemList
+comment1.params=pLocation
+comment1.target=ItemList(java.lang.String)
+comment2.params=pItemName\ pItem
+comment2.target=void\ addItem(java.lang.String,\ Item)
+comment3.params=pItemName
+comment3.target=Item\ getItem(java.lang.String)
+comment4.params=pItemName
+comment4.target=void\ removeItem(java.lang.String)
+comment5.params=pItemName
+comment5.target=boolean\ hasItem(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getItemString()
+numComments=7
